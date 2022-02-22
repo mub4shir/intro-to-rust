@@ -31,4 +31,17 @@ let mut x=1.1; // neither const not immutable
                 // making this binding mutable : `mut x `
         x=2.2; 
 
+// benifits of macros over functions
+// number of arguments are fixed in fn 
+// macro have no limit on arguments 
+// macros are sort of strictly more powerfull than functions in every way
+// expect on which is that fn you're allowed to pass around ,
+// like you can have first-class functions in rust , 
+// you cannot pass macros 
+// performance difference between macros vs fn => yes at compile time not at runtime 
+// because macros has to do that expansion work at compile time, 
+// macros are one of the things that can make your compile times longer
+// in rust  depending on the complexity of macro and how many you're using so forth
+
+
 
